@@ -1,0 +1,6 @@
+{
+  "experiment": "smoke",
+  "seed": 0,
+  "samples": 100,
+  "positive_probability": 0.5
+}

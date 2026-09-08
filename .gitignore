@@ -1,0 +1,38 @@
+# Secrets and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and tooling
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data, runs, logs, and model caches
+/data/*
+!/data/README.md
+/results/*
+!/results/README.md
+/logs/*
+!/logs/README.md
+.cache/
+wandb/
+*.safetensors
+*.pt
+*.pth
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
